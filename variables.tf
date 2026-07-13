@@ -20,7 +20,7 @@ EOT
     api_management_workspace_id = string
     display_name                = string
     name                        = string
-    secret                      = optional(bool) # Default: false
+    secret                      = optional(bool)
     tags                        = optional(list(string))
     value                       = optional(string)
     value_key_vault_id          = optional(string)
